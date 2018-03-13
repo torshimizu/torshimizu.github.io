@@ -19,20 +19,11 @@ header img {
   position: fixed;
   top: -50px;
   width: 100%;
-  display: block;
-  transition: top 0.3s;
-}
-
-#about-navbar {
-  background-color: #333;
-  position: fixed;
-  top: 0px;
-  width: 100%;
   display:block;
   transition: top 0.3s;
 }
 
-#navbar, #about-navbar a {
+#navbar a {
   float: left;
   display: block;
   color: #f2f2f2;
@@ -42,20 +33,11 @@ header img {
   font-size: 17px;
 }
 
-#navbar, #about-navbar a:hover {
+#navbar a:hover {
   background-color: #ddd;
   color: black;
   color: #cca300;
 }
-
-/*nav a img {
-  width: 50%;
-  height: 50%;
-  background: #333;
-  display; inline;
-  padding: -50px -220px;
-  margin: -10px -220px;
-}*/
 
 p {
   padding: 15px;
