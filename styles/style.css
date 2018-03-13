@@ -5,10 +5,14 @@ body {
   font-family: Anaheim;
 }
 
-main header {
-  font-size: 200%;
+h1 {
+  font-size: 4.0em;
 }
 
+header img {
+  border-radius: 100%;
+  float: center;
+}
 #navbar {
   background-color: #333;
   position: fixed;
