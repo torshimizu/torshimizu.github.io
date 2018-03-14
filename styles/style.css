@@ -6,31 +6,57 @@ body {
 }
 
 h1 {
-  font-size: 4.0em;
+  font-size: 5.0em;
+  position: relative;
+  top: 1.5rem;
+  left: 2rem;
+  z-index: -1;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  width: 7em;
+  text-align: center;
+}
+
+main p {
+  margin: 0 2em;
+}
+
+main p:first-of-type {
+  margin: 0 2em 0 2em;
 }
 
 header img {
   border-radius: 100%;
-  float: center;
+  float: left;
+}
+
+main article p {
+  font-size: 2em;
+}
+
+main article ul {
+  margin: 0 2em;
+  font-size: 1.5em;
 }
 
 #navbar {
   background-color: #333;
   position: fixed;
-  top: -50px;
+  top: -3.2em;
   width: 100%;
-  display:block;
-  transition: top 0.3s;
+  display: flex;
+  justify-content: flex-end;
+  transition: top 0.5s;
 }
 
 #navbar a {
   float: left;
-  display: block;
+  display: flex;
   color: #f2f2f2;
   text-align: center;
-  padding: 15px;
+  padding: 0.9em;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1.1em;
 }
 
 #navbar a:hover {
@@ -40,6 +66,6 @@ header img {
 }
 
 p {
-  padding: 15px;
+  padding: 0em;
   font-size: medium;
 }

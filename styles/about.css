@@ -18,10 +18,11 @@
 }
 
 nav a img {
-  width: 50%;
-  height: 50%;
+  width: 2rem;
+  height: 2rem;
   background: #333;
   display; inline;
-  padding: -50px -220px;
-  margin: -10px -220px;
+  /* these should probably be fixed? */
+  padding: -10px -100px;
+  margin: -10px -100px -10px;
 }
