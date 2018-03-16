@@ -8,8 +8,22 @@ body, html {
 /* navbar */
 nav {
   width: 100vw;
+  height: 7vh;
   display: grid;
   grid-template-columns: 3fr 1fr 1fr 1fr;
+  align-items: center;
+}
+nav > a {
+  text-decoration: none;
+  color: #7B910A;
+  margin: auto;
+}
+
+nav > a:hover {
+  color: #f1f1f1;
+  background-color: black;
+  padding: 1.09em;
+  transition: all 0.1s ease;
 }
 
 #splat {
@@ -33,6 +47,13 @@ nav {
   margin: 0 35vw 3vw 0;
 }
 
-.container > article {
+#bg2 {
+  background-image: url("../images/underwater.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 80vh;
 
+  }
 }
