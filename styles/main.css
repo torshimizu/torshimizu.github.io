@@ -26,6 +26,7 @@ nav > a:hover {
   transition: all 0.1s ease;
 }
 
+/* header */
 #splat {
   background-image: url("../images/franklin.jpg");
   position: relative;
@@ -54,4 +55,12 @@ nav > a:hover {
   background-size: cover;
   background-attachment: fixed;
   min-height: 80vh;
+  color: #FEFFFF;
+  font-size: 3em;
+  text-align: center;
+}
+
+#bg2 > span {
+  display: block;
+  padding-top: 70vh;
 }
