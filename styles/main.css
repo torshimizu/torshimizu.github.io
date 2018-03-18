@@ -5,20 +5,22 @@ body, html {
   font-family: Anaheim;
 }
 
-/* navbar */
+/* navbar for other pages */
 nav {
+  background-color: #7B910A;
+  top: 0;
   width: 100vw;
   height: 7vh;
   position: fixed;
-  background-color: #f1f1f1;
-  z-index: 10;
   display: grid;
   grid-template-columns: 3fr 1fr 1fr 1fr;
   align-items: center;
+  z-index: 10;
 }
+
 nav > a {
+  color: #f1f1f1;
   text-decoration: none;
-  color: #7B910A;
   margin: auto;
   font-size: 1.2em;
 }
@@ -30,6 +32,14 @@ nav > a:hover {
   transition: all 0.1s ease;
 }
 
+/* main navbar */
+#main-nav {
+  background-color: #f1f1f1;
+}
+#main-nav > a {
+  color: #7B910A;
+}
+
 /* header */
 header {
   top: 7vh;
@@ -37,6 +47,10 @@ header {
   position: relative;
   text-align: center;
   font-size: 2em;
+}
+
+header h1 {
+  margin: 0.1rem 0;
 }
 
 /* splat */
