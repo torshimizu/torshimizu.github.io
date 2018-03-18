@@ -31,6 +31,15 @@ nav > a:hover {
 }
 
 /* header */
+header {
+  top: 7vh;
+  min-height: 70vh;
+  position: relative;
+  text-align: center;
+  font-size: 2em;
+}
+
+/* splat */
 #splat {
   background-image: url("../images/franklin.jpg");
   position: relative;
