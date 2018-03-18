@@ -9,7 +9,7 @@ header {
   height: 90vh;
   width: 100vw;
   opacity: 0.8;
-  border-top: solid thin black;
+  border-top: solid thin rgba(241, 241, 241,0);
   background-image: url("../images/computer-code.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -57,7 +57,7 @@ main section > sub {
 }
 
 main section a:hover {
-  color: #7B910A;
+  color: #910A37;
 }
 
 main section > p {
