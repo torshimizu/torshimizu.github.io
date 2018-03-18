@@ -13,18 +13,24 @@ article > section {
 }
 
 article > section h3 {
-  margin: 0 auto;
+  margin: 0;
+  width: 100%;
 }
 
 section > div {
-  margin-top: 15vh;
+  margin-top: 17vh;
   background-color: #f1f1f1;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 10vh;
-  align-items: center;
+  height: 8vh;
+  width: 100%;
   align-content: center;
+}
+
+section div > a {
+  display: block;
+  margin: 0;
 }
 
 #sports {
@@ -35,13 +41,11 @@ section > div {
   opacity: 0.65;
 }
 
-#sports div > p {
-  margin: 0;
-}
 
 #sports > div:hover {
-  transition: all .5s ease;
+  transition: all 0.5s ease;
   transform: translateY(-10vh);
+  margin-top: 21vh;
 }
 
 #sports > div > div {
@@ -49,7 +53,7 @@ section > div {
   display: none;
   position: relative;
   background-color: #f1f1f1;
-  width: 30vw;
+  width: 100%;
   margin: 0 auto;
   z-index: 1
 }
@@ -59,5 +63,6 @@ section > div {
 }
 
 #sports > div:hover h3 {
-  width: 30vw;
+  background-color: #f1f1f1;
+
 }
