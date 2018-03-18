@@ -40,8 +40,12 @@ nav > a {
 nav > a:hover {
   color: #f1f1f1;
   background-color: black;
-  padding: 0.98rem;
+  padding: 0.95rem;
   transition: all 0.1s ease;
+}
+
+nav a[href*="index.html"] {
+  margin-left: 6vw;
 }
 
 /* main navbar */
