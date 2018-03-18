@@ -10,6 +10,10 @@ article {
 
 article > section {
   border: solid thin #7B910A;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 article > section h3 {
@@ -33,22 +37,7 @@ section div > a {
   margin: 0;
 }
 
-#sports {
-  background-image: url("../images/ts-climbing-leaven.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.65;
-}
-
-
-#sports > div:hover {
-  transition: all 0.5s ease;
-  transform: translateY(-10vh);
-  margin-top: 21vh;
-}
-
-#sports > div > div {
+section > div > div {
   list-style-type: none;
   display: none;
   position: relative;
@@ -58,11 +47,40 @@ section div > a {
   z-index: 1
 }
 
-#sports > div:hover > div {
-  display: block;
+section > div:hover {
+  transition: all 0.6s ease;
 }
 
-#sports > div:hover h3 {
-  background-color: #f1f1f1;
+section > div:hover > div {
+  display: block;
+  /*transition: all 2s ease;*/
+}
 
+section > div:hover h3 {
+  background-color: #f1f1f1;
+}
+
+section > div:hover {
+  transform: translateY(-10vh);
+  margin-top: 21vh;
+}
+
+/* individual sections */
+#sports {
+  background-image: url("../images/climb-rack.jpg");
+  opacity: 0.85;
+}
+
+#beer {
+  background-image: url("../images/beer-bottles.jpg");
+  opacity: 0.9;
+}
+
+#dogs {
+  background-image: url("../images/roo-taco-cuddle.jpg");
+  opacity: 1;
+}
+
+#crafts {
+  background-image: url("../images/yarn-craft.jpg");
 }
