@@ -3,6 +3,7 @@ body, html {
   height: 100%;
   background-color: #f1f1f1;
   font-family: Anaheim;
+  color: black;
 }
 
 /* navbar for other pages */
@@ -28,7 +29,7 @@ nav > a {
 nav > a:hover {
   color: #f1f1f1;
   background-color: black;
-  padding: 0.8em;
+  padding: 0.98rem;
   transition: all 0.1s ease;
 }
 
@@ -42,7 +43,7 @@ nav > a:hover {
 
 /* header */
 header {
-  top: 7vh;
+  top: 6vh;
   min-height: 70vh;
   position: relative;
   text-align: center;
@@ -55,6 +56,7 @@ header h1 {
 
 /* splat */
 #splat {
+  color: #FEFFFF;
   background-image: url("../images/franklin.jpg");
   position: relative;
   opacity: 0.65;
@@ -67,7 +69,6 @@ header h1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #FEFFFF;
   font-size: 3em;
 }
 
