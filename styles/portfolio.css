@@ -1,7 +1,10 @@
-body {
-  background-color: #E4DBCC;
+main {
+  /*background-color: #E4DBCC;*/
+  height: auto;
+  font-family: 'Ubuntu', sans-serif;
 }
 
+/* page header */
 header {
   height: 90vh;
   width: 100vw;
@@ -16,22 +19,56 @@ header {
 
 header div {
   min-width: 15rem;
+  color: white;
   margin: 30vh 20vw 0 20vw;
   background-color: black;
-  font-family: 'Ubuntu', sans-serif;
 }
 
 header div sub {
   font-size: 0.72em;
 }
 
+/* project blocks */
 main article {
   display: grid;
-  height: 100vw;
+  height: 80vh;
+  padding-top: 6vh;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
 }
 
 article > section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top: solid thin #f1f1f1;
   border-right: solid thin #7B910A;
+  border-bottom: solid thin #7B910A;
+  min-height: 46.5vh;
 }
+
+main section > h3 {
+  margin: 0.5rem auto 0 auto;
+  font-size: 2em;
+}
+
+main section > sub {
+  font-size: 0.65em;
+}
+
+main section a:hover {
+  color: white;
+}
+
+main section > p {
+  margin: 3vw 5vw;
+  font-family: Anaheim, sans-serif;
+}
+
+/* background for project blocks */
+/*article section:nth-of-type(2) {
+  background-image: url("../images/hotel.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
