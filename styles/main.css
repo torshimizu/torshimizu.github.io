@@ -9,7 +9,6 @@ body, html {
 /* general links */
 a {
   text-decoration: none;
-  color: black;
 }
 
 a:visited {
@@ -75,15 +74,15 @@ nav a[href*="index.html"] {
 
 /* header */
 header {
-  top: 6vh;
-  min-height: 70vh;
+  /*top: 6vh;*/
+  min-height: 80vh;
   position: relative;
   text-align: center;
   font-size: 2em;
 }
 
 header h1 {
-  margin: 0.1rem 0;
+  margin: 0.4rem 0;
 }
 
 /* splat */
@@ -109,14 +108,14 @@ header h1 {
 }
 
 /* article divider */
-article:first-of-type {
+article {
     text-align: center;
     font-size: 2em;
-    min-height: 25vh;
+    min-height: 20vh;
 }
 
 article > h4 {
-  padding-top: 1rem;
+  /*padding-top: 1rem;*/
 }
 
 main > article > ul {
@@ -149,9 +148,30 @@ footer {
   padding-left: 10vw;
   padding-top: 5vh;
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 30vw 1fr;
+}
+
+footer section {
+  margin-right: 3vw;
 }
 
 footer p {
   margin: 0.5em 0;
+}
+
+footer a {
+  color: inherit;
+}
+
+footer a:hover {
+  color: black;
+}
+
+#contact {
+  margin-left: 2vw;
+}
+
+#contact div {
+  display: flex;
+  flex-direction: column;
 }
