@@ -1,12 +1,16 @@
 body {
   background-color: black;
-  color: white;
+  color: #FEFFFF;
 }
 
 header img {
   margin-top: 8vw;
   border-radius: 100%;
   height: 50vh;
+}
+
+header p {
+  font-size: 0.65em;
 }
 
 header p > a {
