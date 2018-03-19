@@ -108,7 +108,8 @@ header h1 {
   margin: 0 35vw 3vw 0;
 }
 
-article {
+/* article divider */
+article:first-of-type {
     text-align: center;
     font-size: 2em;
     min-height: 25vh;
@@ -118,6 +119,11 @@ article > h4 {
   padding-top: 1rem;
 }
 
+main > article > ul {
+  list-style-type: none;
+}
+
+/* second picture */
 #bg2 {
   background-image: url("../images/underwater.jpg");
   background-position: center;
@@ -133,4 +139,19 @@ article > h4 {
 #bg2 > span {
   display: block;
   padding-top: 70vh;
+}
+
+/* footer */
+footer {
+  color: #FEFFFF;
+  background-color: rgb(196, 209, 10);
+  height: 30vh;
+  padding-left: 10vw;
+  padding-top: 5vh;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+footer p {
+  margin: 0.5em 0;
 }
