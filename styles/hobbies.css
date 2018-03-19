@@ -13,7 +13,6 @@ article > section {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 article > section h3 {
@@ -22,14 +21,15 @@ article > section h3 {
 }
 
 section > div {
-  margin-top: 17vh;
-  background-color: #f1f1f1;
+  margin-top: 7vh;
+  background-color: rgba(241, 241, 241, 0.5);
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  height: 8vh;
-  width: 100%;
+  height: 6.5vh;
+  width: 49.8%;
   align-content: center;
+  align-items: center;
+  position: absolute;
 }
 
 section div > a {
@@ -41,10 +41,11 @@ section > div > div {
   list-style-type: none;
   display: none;
   position: relative;
-  background-color: #f1f1f1;
+  background-color: rgba(241, 241, 241, 0.9);
   width: 100%;
   margin: 0 auto;
-  z-index: 1
+  z-index: 1;
+  font-size: 0.9em;
 }
 
 section > div:hover {
@@ -53,16 +54,10 @@ section > div:hover {
 
 section > div:hover > div {
   display: block;
-  /*transition: all 2s ease;*/
 }
 
 section > div:hover h3 {
   background-color: #f1f1f1;
-}
-
-section > div:hover {
-  transform: translateY(-10vh);
-  margin-top: 21vh;
 }
 
 /* individual sections */
